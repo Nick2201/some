@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "some"
+version = "0.1.0"
+description = ""
+authors = ["Nick <nicklisits@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+seaborn = "^0.13.0"
+tqdm = "^4.66.1"
+arviz = "^0.16.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.setuptools_scm]
+version_scheme = "post-release"

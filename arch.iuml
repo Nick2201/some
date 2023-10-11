@@ -1,0 +1,8 @@
+@startuml archetecture
+entity marketing
+
+entity sells
+database metrics
+
+marketing --> sells
+@enduml
