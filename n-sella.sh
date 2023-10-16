@@ -1,3 +1,4 @@
+https://onedrive.live.com/edit.aspx?resid=3532B74EE6AA2ED6!2311&ithint=file%2cxlsx&wdo=2&authkey=!ACC7juGIHqqVNjU
 // Creating tables
 Table Product {
   id_product int [pk]
